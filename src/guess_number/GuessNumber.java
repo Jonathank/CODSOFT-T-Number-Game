@@ -14,7 +14,8 @@ public class GuessNumber {
 		System.out.println("Guess the number");
 		
 		int number = (int)(Math.random()*100)+1;
-		System.out.println("number is "+ number);
+		
+		//System.out.println("number is "+ number);
 		int count = 3;
 		int i,guess;
 		
@@ -25,7 +26,6 @@ public class GuessNumber {
 			//if number is chosen right
 			if(number == guess) {
 				System.out.println("Number is guess right "+number);
-				
 				break;
 			}
 			else if(number > guess && i != count-1) {
